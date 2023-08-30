@@ -1,0 +1,5 @@
+__ci_last_regenerate|i:1690515895;_ci_previous_url|s:33:"http://localhost:8080/m/classes/1";id|s:5:"M_177";email|s:35:"viktorsuryono@students.amikom.ac.id";role|s:9:"mahasiswa";logged_in|b:1;status|s:195:"<script>$(document).ready(function() {Swal.fire({
+            icon: "succes",
+            title: "File Berhasil di submit",
+            text: "Semangat kuliahnya! 😊",
+           })});</script>";__ci_vars|a:1:{s:6:"status";s:3:"old";}

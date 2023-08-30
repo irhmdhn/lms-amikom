@@ -1,0 +1,94 @@
+ERROR - 2023-07-03 02:40:41 --> mysqli_sql_exception: Unknown column 'nik' in 'field list' in D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ma...', 0)
+#1 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 D:\kuliah\SEM 4\pwel\lms-amikom\app\Database\Seeds\UserSeeder.php(54): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\Seeder.php(146): App\Database\Seeds\UserSeeder->run()
+#6 D:\kuliah\SEM 4\pwel\lms-amikom\app\Database\Seeds\RunSeeder.php(12): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#7 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\Seeder.php(146): App\Database\Seeds\RunSeeder->run()
+#8 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#9 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#10 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#11 D:\kuliah\SEM 4\pwel\lms-amikom\spark(97): CodeIgniter\CLI\Console->run()
+#12 {main}
+ERROR - 2023-07-03 02:40:58 --> mysqli_sql_exception: Duplicate entry '01' for key 'PRIMARY' in D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', NULL, false)
+#4 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 D:\kuliah\SEM 4\pwel\lms-amikom\app\Database\Seeds\ProdiSeeder.php(38): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\Seeder.php(146): App\Database\Seeds\ProdiSeeder->run()
+#7 D:\kuliah\SEM 4\pwel\lms-amikom\app\Database\Seeds\RunSeeder.php(11): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\Seeder.php(146): App\Database\Seeds\RunSeeder->run()
+#9 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#10 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#11 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#12 D:\kuliah\SEM 4\pwel\lms-amikom\spark(97): CodeIgniter\CLI\Console->run()
+#13 {main}
+ERROR - 2023-07-03 02:41:07 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`lms_amikom`.`users`, CONSTRAINT `fk_users_dosens` FOREIGN KEY (`user_id`) REFERENCES `dosens` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', NULL, false)
+#4 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 D:\kuliah\SEM 4\pwel\lms-amikom\app\Database\Seeds\UserSeeder.php(55): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\Seeder.php(146): App\Database\Seeds\UserSeeder->run()
+#7 D:\kuliah\SEM 4\pwel\lms-amikom\app\Database\Seeds\RunSeeder.php(12): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\Seeder.php(146): App\Database\Seeds\RunSeeder->run()
+#9 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#10 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#11 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#12 D:\kuliah\SEM 4\pwel\lms-amikom\spark(97): CodeIgniter\CLI\Console->run()
+#13 {main}
+ERROR - 2023-07-03 02:44:12 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`lms_amikom`.`users`, CONSTRAINT `fk_users_dosens` FOREIGN KEY (`user_id`) REFERENCES `dosens` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', NULL, false)
+#4 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 D:\kuliah\SEM 4\pwel\lms-amikom\app\Database\Seeds\UserSeeder.php(55): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\Seeder.php(146): App\Database\Seeds\UserSeeder->run()
+#7 D:\kuliah\SEM 4\pwel\lms-amikom\app\Database\Seeds\RunSeeder.php(12): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\Seeder.php(146): App\Database\Seeds\RunSeeder->run()
+#9 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#10 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#11 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#12 D:\kuliah\SEM 4\pwel\lms-amikom\spark(97): CodeIgniter\CLI\Console->run()
+#13 {main}
+ERROR - 2023-07-03 02:46:06 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`lms_amikom`.`users`, CONSTRAINT `fk_users_dosens` FOREIGN KEY (`user_id`) REFERENCES `dosens` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\kuliah\SEM 4\pwel\lms-amikom\app\Database\Seeds\UserSeeder.php(55): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\Seeder.php(146): App\Database\Seeds\UserSeeder->run()
+#6 D:\kuliah\SEM 4\pwel\lms-amikom\app\Database\Seeds\RunSeeder.php(12): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#7 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\Seeder.php(146): App\Database\Seeds\RunSeeder->run()
+#8 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#9 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#10 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#11 D:\kuliah\SEM 4\pwel\lms-amikom\spark(97): CodeIgniter\CLI\Console->run()
+#12 {main}
+ERROR - 2023-07-03 02:51:59 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`lms_amikom`.`users`, CONSTRAINT `fk_users_dosens` FOREIGN KEY (`user_id`) REFERENCES `dosens` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', NULL, false)
+#4 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 D:\kuliah\SEM 4\pwel\lms-amikom\app\Database\Seeds\UserSeeder.php(55): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\Seeder.php(146): App\Database\Seeds\UserSeeder->run()
+#7 D:\kuliah\SEM 4\pwel\lms-amikom\app\Database\Seeds\RunSeeder.php(12): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\Seeder.php(146): App\Database\Seeds\RunSeeder->run()
+#9 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#10 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#11 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#12 D:\kuliah\SEM 4\pwel\lms-amikom\spark(97): CodeIgniter\CLI\Console->run()
+#13 {main}

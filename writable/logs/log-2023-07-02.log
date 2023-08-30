@@ -1,0 +1,133 @@
+ERROR - 2023-07-02 13:32:15 --> mysqli_sql_exception: Can't create table `lms_amikom`.`users` (errno: 150 "Foreign key constraint is incorrectly formed") in D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `u...', 0)
+#1 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 D:\kuliah\SEM 4\pwel\lms-amikom\app\Database\Migrations\2023-07-02-132634_Users.php(44): CodeIgniter\Database\Forge->createTable('users', true)
+#5 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(877): App\Database\Migrations\Users->up()
+#6 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\kuliah\SEM 4\pwel\lms-amikom\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-07-02 13:45:40 --> mysqli_sql_exception: Table 'lms_amikom.users' doesn't exist in D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('ALTER TABLE `us...', 0)
+#1 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('ALTER TABLE `us...')
+#2 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('ALTER TABLE `us...')
+#3 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\Forge.php(745): CodeIgniter\Database\BaseConnection->query('ALTER TABLE `us...')
+#4 D:\kuliah\SEM 4\pwel\lms-amikom\app\Database\Migrations\2023-07-02-132634_Users.php(13): CodeIgniter\Database\Forge->addColumn('users', Array)
+#5 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(877): App\Database\Migrations\Users->up()
+#6 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\kuliah\SEM 4\pwel\lms-amikom\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-07-02 13:50:28 --> mysqli_sql_exception: Can't create table `lms_amikom`.`users` (errno: 150 "Foreign key constraint is incorrectly formed") in D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `u...', 0)
+#1 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 D:\kuliah\SEM 4\pwel\lms-amikom\app\Database\Migrations\2023-07-02-132634_Users.php(46): CodeIgniter\Database\Forge->createTable('users')
+#5 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(877): App\Database\Migrations\Users->up()
+#6 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\kuliah\SEM 4\pwel\lms-amikom\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-07-02 13:51:46 --> mysqli_sql_exception: Can't create table `lms_amikom`.`users` (errno: 150 "Foreign key constraint is incorrectly formed") in D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `u...', 0)
+#1 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 D:\kuliah\SEM 4\pwel\lms-amikom\app\Database\Migrations\2023-07-02-132634_Users.php(48): CodeIgniter\Database\Forge->createTable('users')
+#5 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(877): App\Database\Migrations\Users->up()
+#6 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\kuliah\SEM 4\pwel\lms-amikom\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-07-02 15:16:23 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5) VALUES (:0:, :1:, :2:, :3:, :4:, :5:)' at line 1 in D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 D:\kuliah\SEM 4\pwel\lms-amikom\app\Database\Seeds\ProdiSeeder.php(38): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\Seeder.php(146): App\Database\Seeds\ProdiSeeder->run()
+#6 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#7 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#8 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#9 D:\kuliah\SEM 4\pwel\lms-amikom\spark(97): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2023-07-02 16:59:48 --> mysqli_sql_exception: Duplicate entry '01' for key 'PRIMARY' in D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', NULL, false)
+#4 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 D:\kuliah\SEM 4\pwel\lms-amikom\app\Database\Seeds\ProdiSeeder.php(38): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\Seeder.php(146): App\Database\Seeds\ProdiSeeder->run()
+#7 D:\kuliah\SEM 4\pwel\lms-amikom\app\Database\Seeds\RunSeeder.php(11): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\Seeder.php(146): App\Database\Seeds\RunSeeder->run()
+#9 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#10 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#11 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#12 D:\kuliah\SEM 4\pwel\lms-amikom\spark(97): CodeIgniter\CLI\Console->run()
+#13 {main}
+ERROR - 2023-07-02 17:03:47 --> mysqli_sql_exception: Duplicate entry '01' for key 'PRIMARY' in D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', NULL, false)
+#4 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 D:\kuliah\SEM 4\pwel\lms-amikom\app\Database\Seeds\ProdiSeeder.php(38): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\Seeder.php(146): App\Database\Seeds\ProdiSeeder->run()
+#7 D:\kuliah\SEM 4\pwel\lms-amikom\app\Database\Seeds\RunSeeder.php(11): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\Seeder.php(146): App\Database\Seeds\RunSeeder->run()
+#9 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#10 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#11 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#12 D:\kuliah\SEM 4\pwel\lms-amikom\spark(97): CodeIgniter\CLI\Console->run()
+#13 {main}
+ERROR - 2023-07-02 18:46:21 --> mysqli_sql_exception: Table 'lms_amikom.prodis' doesn't exist in D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', NULL, false)
+#4 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 D:\kuliah\SEM 4\pwel\lms-amikom\app\Database\Seeds\ProdiSeeder.php(38): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\Seeder.php(146): App\Database\Seeds\ProdiSeeder->run()
+#7 D:\kuliah\SEM 4\pwel\lms-amikom\app\Database\Seeds\RunSeeder.php(11): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\Seeder.php(146): App\Database\Seeds\RunSeeder->run()
+#9 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#10 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#11 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#12 D:\kuliah\SEM 4\pwel\lms-amikom\spark(97): CodeIgniter\CLI\Console->run()
+#13 {main}
+ERROR - 2023-07-02 18:54:52 --> mysqli_sql_exception: Duplicate entry '01' for key 'PRIMARY' in D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pr...', 0)
+#1 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', NULL, false)
+#4 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 D:\kuliah\SEM 4\pwel\lms-amikom\app\Database\Seeds\ProdiSeeder.php(38): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\Seeder.php(146): App\Database\Seeds\ProdiSeeder->run()
+#7 D:\kuliah\SEM 4\pwel\lms-amikom\app\Database\Seeds\RunSeeder.php(11): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\Seeder.php(146): App\Database\Seeds\RunSeeder->run()
+#9 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#10 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#11 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#12 D:\kuliah\SEM 4\pwel\lms-amikom\spark(97): CodeIgniter\CLI\Console->run()
+#13 {main}

@@ -1,0 +1,4 @@
+__ci_last_regenerate|i:1690225158;_ci_previous_url|s:33:"http://localhost:8080/d/classes/1";id|s:3:"D_2";email|s:17:"toto@amikom.ac.id";role|s:5:"dosen";logged_in|b:1;success|s:159:"<script>$(document).ready(function() {Swal.fire({
+                icon: "success",
+                title: "Data berhasil diubah",
+               })});</script>";__ci_vars|a:1:{s:7:"success";s:3:"old";}

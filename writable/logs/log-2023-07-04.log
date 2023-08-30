@@ -1,0 +1,96 @@
+ERROR - 2023-07-04 02:05:05 --> mysqli_sql_exception: Incorrect table definition; there can be only one auto column and it must be defined as a key in D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `R...', 0)
+#1 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `R...')
+#2 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `R...')
+#3 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `R...')
+#4 D:\kuliah\SEM 4\pwel\lms-amikom\app\Database\Migrations\2023-07-03-090931_RelationDosenMatkul.php(28): CodeIgniter\Database\Forge->createTable('RelationDosenMa...', true)
+#5 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(877): App\Database\Migrations\RelationDosenMatkul->up()
+#6 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\kuliah\SEM 4\pwel\lms-amikom\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-07-04 02:06:45 --> mysqli_sql_exception: Incorrect table definition; there can be only one auto column and it must be defined as a key in D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `r...', 0)
+#1 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `r...')
+#2 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `r...')
+#3 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `r...')
+#4 D:\kuliah\SEM 4\pwel\lms-amikom\app\Database\Migrations\2023-07-03-090931_RelationDosenMatkul.php(28): CodeIgniter\Database\Forge->createTable('relationdosenma...', true)
+#5 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(877): App\Database\Migrations\RelationDosenMatkul->up()
+#6 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\kuliah\SEM 4\pwel\lms-amikom\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-07-04 02:06:50 --> mysqli_sql_exception: Incorrect table definition; there can be only one auto column and it must be defined as a key in D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE TABLE `r...', 0)
+#1 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `r...')
+#2 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `r...')
+#3 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `r...')
+#4 D:\kuliah\SEM 4\pwel\lms-amikom\app\Database\Migrations\2023-07-03-090931_RelationDosenMatkul.php(28): CodeIgniter\Database\Forge->createTable('relationdosenma...', true)
+#5 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(877): App\Database\Migrations\RelationDosenMatkul->up()
+#6 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\kuliah\SEM 4\pwel\lms-amikom\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-07-04 02:08:20 --> mysqli_sql_exception: Table 'lms_amikom.relationmhsprodiseeder' doesn't exist in D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `Re...', 0)
+#1 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Re...')
+#2 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Re...')
+#3 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Re...', Array, false)
+#4 D:\kuliah\SEM 4\pwel\lms-amikom\app\Database\Seeds\RelationMhsProdiSeeder.php(20): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\Seeder.php(146): App\Database\Seeds\RelationMhsProdiSeeder->run()
+#6 D:\kuliah\SEM 4\pwel\lms-amikom\app\Database\Seeds\RunSeeder.php(14): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#7 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\Seeder.php(146): App\Database\Seeds\RunSeeder->run()
+#8 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#9 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#10 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#11 D:\kuliah\SEM 4\pwel\lms-amikom\spark(97): CodeIgniter\CLI\Console->run()
+#12 {main}
+ERROR - 2023-07-04 02:09:06 --> mysqli_sql_exception: Duplicate entry '2083' for key 'kode' in D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `Re...', 0)
+#1 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Re...')
+#2 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Re...')
+#3 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Re...', Array, false)
+#4 D:\kuliah\SEM 4\pwel\lms-amikom\app\Database\Seeds\RelationMhsProdiSeeder.php(20): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\Seeder.php(146): App\Database\Seeds\RelationMhsProdiSeeder->run()
+#6 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#7 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#8 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#9 D:\kuliah\SEM 4\pwel\lms-amikom\spark(97): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2023-07-04 02:15:48 --> mysqli_sql_exception: Duplicate entry '1583' for key 'kode' in D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `Re...', 0)
+#1 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Re...')
+#2 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Re...')
+#3 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Re...', Array, false)
+#4 D:\kuliah\SEM 4\pwel\lms-amikom\app\Database\Seeds\RelationMhsProdiSeeder.php(20): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\Seeder.php(146): App\Database\Seeds\RelationMhsProdiSeeder->run()
+#6 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#7 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#8 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#9 D:\kuliah\SEM 4\pwel\lms-amikom\spark(97): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2023-07-04 02:17:16 --> mysqli_sql_exception: Duplicate entry '1501' for key 'kode' in D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `Re...', 0)
+#1 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Re...')
+#2 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Re...')
+#3 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Re...', Array, false)
+#4 D:\kuliah\SEM 4\pwel\lms-amikom\app\Database\Seeds\RelationMhsProdiSeeder.php(20): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Database\Seeder.php(146): App\Database\Seeds\RelationMhsProdiSeeder->run()
+#6 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#7 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#8 D:\kuliah\SEM 4\pwel\lms-amikom\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#9 D:\kuliah\SEM 4\pwel\lms-amikom\spark(97): CodeIgniter\CLI\Console->run()
+#10 {main}

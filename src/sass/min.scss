@@ -1,0 +1,36 @@
+$bg-light: #F3EEFC;
+$bg-dark: #0A0314;
+
+$primary: #4A1B9D;
+$warning: #FFAC00;
+$info: #0053ff;
+$success: #10d64c;
+$danger: #cf3917;
+$light: #F3EEFC;
+$secondary: #6c757d;
+$dark: #0A0314;
+@import "../../node_modules/bootstrap/scss/bootstrap";
+.btn-primary{
+    box-shadow: 0px 2px 6px #4b1b9da1;
+}
+.btn-warning{
+    box-shadow: 0px 2px 6px #FFAC00a1;
+}
+.btn-info{
+    box-shadow: 0px 2px 6px #0053ffa1;
+}
+.btn-success{
+    box-shadow: 0px 2px 6px #10d64ca1;
+}
+.btn-danger{
+    box-shadow: 0px 2px 6px #cf3917a1;
+}
+.btn-light{
+    box-shadow: 0px 2px 6px #0a031461;
+}
+.btn-secondary{
+    box-shadow: 0px 2px 6px #6c757da1;
+}
+.btn-dark{
+    box-shadow: 0px 2px 6px #0A0314a1;
+}
